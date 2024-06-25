@@ -1,6 +1,6 @@
 'use server'
 
-import { createBankAccountProps, exchangePublicTokenProps, getBankProps, getBanksProps, getUserInfoProps, signInProps, SignUpParams, User } from "@/types"
+import { createBankAccountProps, CreateTransactionProps, exchangePublicTokenProps, getBankProps, getBanksProps, getUserInfoProps, signInProps, SignUpParams, User } from "@/types"
 import { createAdminClient, createSessionClient } from "../appwrite"
 import { ID, Query } from "node-appwrite"
 import { cookies } from "next/headers"
@@ -14,7 +14,9 @@ import { addFundingSource, createDwollaCustomer } from "./dwolla.actions"
 const {
     APPWRITE_DATABASE_ID: DATABASE_ID,
     APPWRITE_USER_COLLECTION_ID: USER_COLLECTION_ID,
-    APPWRITE_BANK_COLLECTION_ID: BANK_COLLECTION_ID
+    APPWRITE_BANK_COLLECTION_ID: BANK_COLLECTION_ID,
+    APPWRITE_TRANSACTION_COLLECTION_ID: TRANSACTION_COLLECTION_ID
+    
 } = process.env
 
 
@@ -55,7 +57,6 @@ export const signIn = async({email, password}: signInProps) => {
 
 export const signUp = async ({ password, ...userData }: SignUpParams) => {
     const { email, firstName, lastName } = userData;
-    // console.log(state)
     
     let newUserAccount;
   
