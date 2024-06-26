@@ -39,7 +39,7 @@ To get started with Bank-Horizon, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/bank-horizon.git
+   git clone https://github.com/ShahinurAlamBhuiyan/Bank-Horizon.git
    cd bank-horizon
 
 2. Install dependencies:
@@ -73,38 +73,33 @@ Contributions are welcome! Please follow these steps to contribute:
 ## Screenshots
 
 ### Sign-in
-![signin Screenshot](/Bank-Horizon_ss/a_1signIn.png)
+<img src="/Bank-Horizon_ss/a_1signIn.png" alt="Screenshot" width="700" height="400">
+
 
 ### Sign-up
-![signup Screenshot](/Bank-Horizon_ss/b_2signUp.png)
-
-### After - Sign-up
-![AfterSignup Screenshot](/Bank-Horizon_ss/c_3afterSignUp.png)
-
-### After - Connect bank
-![afterConnectBank Screenshot](/Bank-Horizon_ss/d_4afterConnectBank.png)
-
-### Connecting bank
-![connectingBank Screenshot](/Bank-Horizon_ss/e_5connectingChaseBank.png)
-
-### Success Connect Bank
-![successConnectBank Screenshot](/Bank-Horizon_ss/f_6successfullyChaseConnect.png)
+<div style="display: flex;">
+   <img src="/Bank-Horizon_ss/b_2signUp.png" alt="Screenshot" width="400" height="250">
+   <img src="/Bank-Horizon_ss/c_3afterSignUp.png" alt="Screenshot" width="400" height="250">
+   <img src="/Bank-Horizon_ss/d_4afterConnectBank.png" alt="Screenshot" width="400" height="250">
+   <img src="/Bank-Horizon_ss/e_5connectingChaseBank.png" alt="Screenshot" width="400" height="250">
+   <img src="/Bank-Horizon_ss/f_6successfullyChaseConnect.png" alt="Screenshot" width="400" height="250">
+</div>
 
 ### After SignUp & Connecting Bank - Home
-![connectingChaseBank Screenshot](/Bank-Horizon_ss/g_7Home.png)
+<img src="/Bank-Horizon_ss/g_7Home.png" alt="Screenshot" width="700" height="400">
 
 ### My Banks
-![myBanks Screenshot](/Bank-Horizon_ss/h_8myBanks.png)
+<img src="/Bank-Horizon_ss/h_8myBanks.png" alt="Screenshot" width="700" height="400">
 
 ### Transactions History
-![transactionsHistory Screenshot](/Bank-Horizon_ss/i_9transactionHistory.png)
+<img src="/Bank-Horizon_ss/i_9transactionHistory.png" alt="Screenshot" width="700" height="400">
 
 ### Transfer Funds
-![transferFundsPage Screenshot](/Bank-Horizon_ss/j_10_transferFunds.png)
+<img src="/Bank-Horizon_ss/j_10_transferFunds.png" alt="Screenshot" width="700" height="400">
 
 ### After transfering funds one account to another
-![fundsTransfer Screenshot](/Bank-Horizon_ss/k_11transferCheckingToSavings.png)
-![fundsTransfer1 Screenshot](/Bank-Horizon_ss/L_afterTransferSaving.png)
+<img src="/Bank-Horizon_ss/k_11transferCheckingToSavings.png" alt="Screenshot" width="700" height="400">
+<img src="/Bank-Horizon_ss/L_afterTransferSaving.png" alt="Screenshot" width="700" height="400">
 
 
 
