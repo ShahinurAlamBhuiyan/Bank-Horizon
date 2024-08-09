@@ -1,5 +1,4 @@
 # Bank-Horizon
-
 Bank-Horizon is a modern web application designed to provide comprehensive financial services. Built with cutting-edge technologies, it offers a seamless user experience and robust functionality.
 
 ## Table of Contents
